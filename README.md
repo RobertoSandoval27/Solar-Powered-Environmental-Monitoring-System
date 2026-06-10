@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a solar-powered remote environmental monitoring and control system designed for outdoor enclosure applications. The system uses an ESP32 microcontroller to monitor occupancy, temperature, battery status, and ventilation operation while transmitting data to a web-based dashboard.
+This project is a solar-powered environmental monitoring and control system designed for outdoor enclosure applications. The system monitors environmental conditions, occupancy, and power system status while automatically controlling ventilation and providing remote telemetry through a web-based interface.
 
 ## Features
 
