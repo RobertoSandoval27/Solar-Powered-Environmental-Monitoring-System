@@ -6,14 +6,13 @@ This project is a solar-powered remote environmental monitoring and control syst
 
 ## Features
 
-- Solar-powered operation
-- ESP32 microcontroller
-- Occupancy detection using PIR sensor
-- Temperature monitoring
-- Automatic exhaust fan control
-- Battery charge/discharge monitoring
-- Web dashboard and telemetry
-- LiFePO4 battery energy storage
+- Detects occupancy using passive infrared sensing
+- Monitors enclosure temperature and humidity
+- Automatically activates ventilation when temperature exceeds a configurable threshold
+- Operates from a solar-powered energy system
+- Monitors battery charging and discharging status
+- Provides real-time environmental data through a web dashboard
+- Supports remote monitoring over Wi-Fi
 
 ## Hardware
 
