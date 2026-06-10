@@ -19,8 +19,8 @@ This project is a solar-powered remote environmental monitoring and control syst
 
 - ESP32 Dev Board
 - HC-SR501 PIR Motion Sensor
-- DHT11 Temperature/Humidity Sensor
-- Arctic P12 Fan
+- BME280 Temprature/Humidity Sensor
+- 12v 120mm PWM Fan
 - MOSFET Driver Module
 - Solar Panel and Charge Controller
 - 12V 10Ah LiFePO4 Battery
