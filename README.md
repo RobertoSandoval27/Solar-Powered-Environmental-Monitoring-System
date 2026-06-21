@@ -29,9 +29,18 @@ This project is a solar-powered environmental monitoring and control system desi
 
 Phase 1: Hardware bring-up and sensor testing.
 
+## Development Log
+
+### ESP32 Bring-Up (6/20/26)
+
+- Installed CP210x USB-UART driver
+- Configured Arduino IDE for ESP32 development
+- Resolved COM port detection issues
+- Successfully uploaded and executed Blink test
+  
 ## Planned Milestones
 
-- [ ] Verify ESP32 programming
+- [x] Verify ESP32 programming
 - [ ] Read temperature sensor data
 - [ ] Read PIR sensor data
 - [ ] Control fan using MOSFET
