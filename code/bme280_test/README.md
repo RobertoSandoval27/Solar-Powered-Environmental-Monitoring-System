@@ -38,9 +38,21 @@ Measured data:
 - Humidity: 30.08 %
 - Pressure: 1009.78 hPa
 
+Diagnostic data:
+
+- I2C Scanner detected the sensor at address 0x76.
+- Chip ID register returned 0x60, confirming a genuine BME280 sensor.
+- Environmental data was successfully acquired from the sensor.
+
 ## Notes
 
 The sensor was initially not detected using the default example code from the Adafruit BME280 library. After verifying that the ESP32 was recognizing the device at address 0x76, an I2C scanner sketch was ran but resulted in error messages. After close inspection, a thin bridge connecting two channels on the sensor was found. Once that channel was removed, the sensor worked as desired.
+
+## Associated Test Files
+
+- i2c_scanner.ino
+- chip_id_test.ino
+- bme280_test.ino
 
 ## Reference Images
 
