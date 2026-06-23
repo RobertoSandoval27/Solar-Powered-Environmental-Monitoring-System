@@ -41,3 +41,9 @@ Measured data:
 ## Notes
 
 The sensor was initially not detected using the default example code from the Adafruit BME280 library. After verifying that the ESP32 was recognizing the device at address 0x76, an I2C scanner sketch was ran but resulted in error messages. After close inspection, a thin bridge connecting two channels on the sensor was found. Once that channel was removed, the sensor worked as desired.
+
+## Reference Images
+
+### ESP32 Pinout
+
+![ESP32 Pinout](../../docs/diagrams/ESP32-Pinout.png)
