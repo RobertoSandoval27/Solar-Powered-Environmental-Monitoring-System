@@ -29,7 +29,7 @@ This project is a solar-powered environmental monitoring and control system desi
 
 Phase 1: Hardware bring-up and sensor testing.
 
-Focus: PIR occupancy detection
+Focus: MOSFET and fan control integration
 
 ## Development Log
 
@@ -40,7 +40,7 @@ Focus: PIR occupancy detection
 - Resolved COM port detection issues
 - Successfully uploaded and executed Blink test
 
-  ### BME280 Environmental Sensor Integration (6/22/26)
+### BME280 Environmental Sensor Integration (6/22/26)
 
 - Established I2C communication with the BME280 sensor.
 - Verified sensor address at 0x76 using an I2C scanner.
@@ -48,11 +48,18 @@ Focus: PIR occupancy detection
 - Successfully measured temperature, humidity, and pressure.
 - Validated environmental sensing subsystem for future fan control logic.
 
+### PIR Occupancy Sensor Integration (6/23/26)
+
+- Successfully interfaced HC-SR501 PIR sensor with the ESP32.
+- Verified digital motion detection functionality.
+- Adjusted sensitivity and delay settings for accurate measurements.
+- Validated occupancy detection subsystem for future ventilation control logic.
+
 ## Planned Milestones
 
 - [x] Verify ESP32 programming
 - [x] Read temperature sensor data
-- [ ] Read PIR sensor data
+- [x] Read PIR sensor data
 - [ ] Control fan using MOSFET
 - [ ] Create local web dashboard
 - [ ] Integrate battery monitoring
