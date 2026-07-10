@@ -58,14 +58,15 @@ Measured Data:
 
 Initial testing using the LiFePO₄ battery was unsuccessful due to the battery being heavily discharged. It would not hold charge well, resulting in the fan not turning. Additionally, one of my solders for the MOSFET module didn't make a great connection, causing it to never power on; There is a red LED to indicate whether it is powered correctly.
 
+I utilized the bottom pair of GND and PWM on the MOSFET module by soldering two pins allowing it to be placed on a breadboard.
+
 A regulated DC bench power supply was substituted to isolate the issue and verify that:
 
 - ESP32 control logic was functioning correctly.
 - MOSFET driver module operated correctly.
 - Arctic P12 Pro fan operated normally.
-I utilized the bottom pair of GND and PWM on the MOSFET module by soldering two pins allowing it to be placed on a breadboard.
 
-## Reference Pictures
+## Reference Diagrams
 ### Fan Pins
 ![Fan Pinout](/docs/diagrams/Fan_Pins.png)
 ### MOSFET Pins
