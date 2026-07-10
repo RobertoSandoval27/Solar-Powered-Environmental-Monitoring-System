@@ -27,9 +27,9 @@ This project is a solar-powered environmental monitoring and control system desi
 
 ## Current Status
 
-Phase 1: Hardware bring-up and sensor testing.
+- [x] Phase 1: Hardware bring-up and sensor testing.
 
-Focus: MOSFET and fan control integration
+- [ ] Phase 2: System Integration and Control Logic
 
 ## Development Log
 
@@ -55,18 +55,41 @@ Focus: MOSFET and fan control integration
 - Adjusted sensitivity and delay settings for accurate measurements.
 - Validated occupancy detection subsystem for future ventilation control logic.
 
-## Planned Milestones
+### MOSFET and Fan Control Verification (7/10/26)
 
+- Verified MOSFET switching using ESP32 GPIO control.
+- Successfully controlled the Arctic P12 12V fan using the MOSFET module.
+- Verified fan current draw of approximately 0.33 A using a DC power supply.
+- Diagnosed a faulty/discharged LiFePO₄ battery during testing and isolated the issue from the control circuitry.
+  
+## Planned Milestones
+### Phase 1 – Hardware Bring-up
 - [x] Verify ESP32 programming
 - [x] Read temperature sensor data
 - [x] Read PIR sensor data
-- [ ] Control fan using MOSFET
-- [ ] Create local web dashboard
-- [ ] Integrate battery monitoring
+- [x] Control fan using MOSFET
+
+### Phase 2 – System Integration
+
+- [ ] Implement temperature-controlled fan logic
+- [ ] Integrate PIR motion detection into occupancy estimation
+- [ ] Combine environmental sensing with fan control
+
+### Phase 3 – Power System Integration
+
+- [ ] Integrate LiFePO₄ battery
 - [ ] Integrate solar charging system
+- [ ] Monitor battery voltage and charging status
+
+### Phase 4 – Remote Monitoring
+
+- [ ] Create local web dashboard
+- [ ] Display environmental data
+- [ ] Display occupancy estimation
+- [ ] Display battery status
+
+### Phase 5 – Final System Assembly
+
 - [ ] Design enclosure
-- [ ] Complete final installation
-
-## Project Photos
-
-Project photos and test results will be uploaded throughout development.
+- [ ] Install system in doghouse
+- [ ] Perform outdoor validation testing
