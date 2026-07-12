@@ -61,6 +61,14 @@ This project is a solar-powered environmental monitoring and control system desi
 - Successfully controlled the Arctic P12 12V fan using the MOSFET module.
 - Verified fan current draw of approximately 0.33 A using a DC power supply.
 - Diagnosed a faulty/discharged LiFePO₄ battery during testing and isolated the issue from the control circuitry.
+
+### Temperature Controller (7/11/26)
+
+- First version of the environmental control firmware.
+- Implemented automatic fan control using BME280 temperature data.
+- Added hysteresis to prevent rapid fan cycling.
+- Implemented runtime configuration of fan ON/OFF thresholds through the Serial Monitor.
+- Verified automatic fan operation using a regulated DC bench power supply.
   
 ## Planned Milestones
 ### Phase 1 – Hardware Bring-up
@@ -71,7 +79,7 @@ This project is a solar-powered environmental monitoring and control system desi
 
 ### Phase 2 – System Integration
 
-- [ ] Implement temperature-controlled fan logic
+- [x] Implement temperature-controlled fan logic
 - [ ] Integrate PIR motion detection into occupancy estimation
 - [ ] Combine environmental sensing with fan control
 
