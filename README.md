@@ -69,7 +69,13 @@ This project is a solar-powered environmental monitoring and control system desi
 - Added hysteresis to prevent rapid fan cycling.
 - Implemented runtime configuration of fan ON/OFF thresholds through the Serial Monitor.
 - Verified automatic fan operation using a regulated DC bench power supply.
-  
+
+### Occupancy Estimation (7/16/26)
+
+- Integrated PIR motion sensing into the primary firmware.
+- Implemented occupancy estimation using a configurable inactivity timeout.
+- Added runtime configuration through the Serial Monitor.
+
 ## Planned Milestones
 ### Phase 1 – Hardware Bring-up
 - [x] Verify ESP32 programming
@@ -80,8 +86,8 @@ This project is a solar-powered environmental monitoring and control system desi
 ### Phase 2 – System Integration
 
 - [x] Implement temperature-controlled fan logic
-- [ ] Integrate PIR motion detection into occupancy estimation
-- [ ] Combine environmental sensing with fan control
+- [x] Integrate PIR motion detection into occupancy estimation
+- [ ] Save configurable parameters to ESP32 flash memory
 
 ### Phase 3 – Power System Integration
 
@@ -89,7 +95,7 @@ This project is a solar-powered environmental monitoring and control system desi
 - [ ] Integrate solar charging system
 - [ ] Monitor battery voltage and charging status
 
-### Phase 4 – Remote Monitoring
+### Phase 4 – Remote Monitoring and User Interface
 
 - [ ] Create local web dashboard
 - [ ] Display environmental data
@@ -99,5 +105,6 @@ This project is a solar-powered environmental monitoring and control system desi
 ### Phase 5 – Final System Assembly
 
 - [ ] Design enclosure
-- [ ] Install system in doghouse
-- [ ] Perform outdoor validation testing
+- [ ] Install complete system
+- [ ] Tune occupancy estimation
+- [ ] Outdoor validation testing
