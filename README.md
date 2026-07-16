@@ -29,7 +29,8 @@ This project is a solar-powered environmental monitoring and control system desi
 
 - [x] Phase 1: Hardware bring-up and sensor testing.
 
-- [ ] Phase 2: System Integration and Control Logic
+- [x] Phase 2: System Integration and Control Logic
+- [ ] Phase 3: Power System Integration
 
 ## Development Log
 
@@ -87,7 +88,7 @@ This project is a solar-powered environmental monitoring and control system desi
 
 - [x] Implement temperature-controlled fan logic
 - [x] Integrate PIR motion detection into occupancy estimation
-- [ ] Save configurable parameters to ESP32 flash memory
+- [x] Implement persistent user settings
 
 ### Phase 3 – Power System Integration
 
