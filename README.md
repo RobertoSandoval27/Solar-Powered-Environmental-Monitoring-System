@@ -77,6 +77,19 @@ This project is a solar-powered environmental monitoring and control system desi
 - Implemented occupancy estimation using a configurable inactivity timeout.
 - Added runtime configuration through the Serial Monitor.
 
+### Power System Architecture (7/16/26)
+
+- Power architecture
+- Power budget
+- Runtime analysis
+- Design decisions
+
+### Battery Integration (7/17/26)
+
+- LiFePO₄ battery integration
+- LM2596 buck converter configuration
+- Standalone battery-powered operation
+  
 ## Planned Milestones
 ### Phase 1 – Hardware Bring-up
 - [x] Verify ESP32 programming
@@ -92,7 +105,8 @@ This project is a solar-powered environmental monitoring and control system desi
 
 ### Phase 3 – Power System Integration
 
-- [ ] Integrate LiFePO₄ battery
+- [x] Power system architecture
+- [x] Integrate LiFePO₄ battery
 - [ ] Integrate solar charging system
 - [ ] Monitor battery voltage and charging status
 
