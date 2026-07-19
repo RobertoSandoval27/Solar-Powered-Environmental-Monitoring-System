@@ -24,7 +24,7 @@ Add battery-voltage monitoring to the Solar-Powered Environmental Monitoring Sys
 
 The battery-voltage monitor uses two resistors connected in series across the battery supply.
 
-![Wiring for battery monitoring](/docs/photos/battery_monitoring_wiring.png)
+![Battery Monitoring Wiring](/docs/diagrams/battery_monitoring_wiring.png)
 
 
 The voltage divider is connected as a separate parallel branch after the 5A fuse.
