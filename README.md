@@ -89,6 +89,12 @@ This project is a solar-powered environmental monitoring and control system desi
 - LiFePO₄ battery integration
 - LM2596 buck converter configuration
 - Standalone battery-powered operation
+
+### Solar Integration (7/19/26)
+
+- Integrated a 20W monocrystalline solar panel.
+- Connected and validated the PWM solar charge controller.
+- Verified battery charging operation.
   
 ## Planned Milestones
 ### Phase 1 – Hardware Bring-up
@@ -107,19 +113,30 @@ This project is a solar-powered environmental monitoring and control system desi
 
 - [x] Power system architecture
 - [x] Integrate LiFePO₄ battery
-- [ ] Integrate solar charging system
-- [ ] Monitor battery voltage and charging status
+- [x] Integrate solar charging system
 
-### Phase 4 – Remote Monitoring and User Interface
+### Phase 4 – System Monitoring and User Interface
+
+#### Battery Monitoring
+
+- [ ] Display battery voltage
+- [ ] Display estimated battery state of charge
+- [ ] Display charging status
+
+#### Web Dashboard
 
 - [ ] Create local web dashboard
 - [ ] Display environmental data
 - [ ] Display occupancy estimation
-- [ ] Display battery status
+- [ ] Display battery information
+- [ ] Manual fan override
+- [ ] Adjust controller parameters
 
 ### Phase 5 – Final System Assembly
 
 - [ ] Design enclosure
+- [ ] Final wiring and cable management
 - [ ] Install complete system
 - [ ] Tune occupancy estimation
 - [ ] Outdoor validation testing
+- [ ] Final documentation
