@@ -30,7 +30,8 @@ This project is a solar-powered environmental monitoring and control system desi
 - [x] Phase 1: Hardware bring-up and sensor testing.
 
 - [x] Phase 2: System Integration and Control Logic
-- [ ] Phase 3: Power System Integration
+- [x] Phase 3: Power System Integration
+- [ ] Phase 4: System Monitoring and User Interface
 
 ## Development Log
 
