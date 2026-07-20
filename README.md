@@ -120,16 +120,14 @@ This project is a solar-powered environmental monitoring and control system desi
 
 #### Battery Monitoring
 
-- [ ] Display battery voltage
-- [ ] Display estimated battery state of charge
-- [ ] Display charging status
+- [x] Display battery voltage
 
 #### Web Dashboard
 
 - [ ] Create local web dashboard
 - [ ] Display environmental data
 - [ ] Display occupancy estimation
-- [ ] Display battery information
+- [ ] Display battery information (Voltage & Charging)
 - [ ] Manual fan override
 - [ ] Adjust controller parameters
 
