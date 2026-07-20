@@ -96,6 +96,18 @@ This project is a solar-powered environmental monitoring and control system desi
 - Integrated a 20W monocrystalline solar panel.
 - Connected and validated the PWM solar charge controller.
 - Verified battery charging operation.
+
+### Local Web Dashboard (7/20/26)
+
+- Developed a locally hosted dashboard using the ESP32.
+- Implemented live environmental monitoring.
+- Added occupancy monitoring.
+- Added battery voltage monitoring.
+- Displayed persistent controller settings.
+- Implemented automatic updates every two seconds using JavaScript.
+- Validated operation while powered solely from the battery.
+- Diagnosed and replaced a faulty ESP32 development board after repeated Wi-Fi brownout resets.
+![Local Web Dashboard](/docs/photos/web_dashboard_live_data.png)
   
 ## Planned Milestones
 ### Phase 1 – Hardware Bring-up
@@ -124,9 +136,9 @@ This project is a solar-powered environmental monitoring and control system desi
 
 #### Web Dashboard
 
-- [ ] Create local web dashboard
-- [ ] Display environmental data
-- [ ] Display occupancy estimation
+- [x] Create local web dashboard
+- [x] Display environmental data
+- [x] Display occupancy estimation
 - [ ] Display battery information (Voltage & Charging)
 - [ ] Manual fan override
 - [ ] Adjust controller parameters
