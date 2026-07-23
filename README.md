@@ -27,11 +27,8 @@ This project is a solar-powered environmental monitoring and control system desi
 
 ## Current Status
 
-- [x] Phase 1: Hardware bring-up and sensor testing.
-
-- [x] Phase 2: System Integration and Control Logic
-- [x] Phase 3: Power System Integration
-- [ ] Phase 4: System Monitoring and User Interface
+**Functional MVP Complete**
+- [ ] Phase 5: Final Assembly and Validation
 
 ## Development Log
 
@@ -108,7 +105,17 @@ This project is a solar-powered environmental monitoring and control system desi
 - Validated operation while powered solely from the battery.
 - Diagnosed and replaced a faulty ESP32 development board after repeated Wi-Fi brownout resets.
 ![Local Web Dashboard](/docs/photos/web_dashboard_live_data.png)
-  
+
+### Dashboard Configuration & Manual Fan Override (7/22/26)
+
+- Added wireless controller configuration through the web dashboard.
+- Implemented persistent controller settings using ESP32 Preferences.
+- Added manual fan override with AUTO, FORCE ON, and FORCE OFF operating modes.
+- Added runtime parameter validation.
+- Added dashboard confirmation messages and improved controller status indicators.
+- Completed the functional user interface for the embedded monitoring system.
+![Dashboard Configuration](docs/photos/dashboard_configuration.png)
+
 ## Planned Milestones
 ### Phase 1 – Hardware Bring-up
 - [x] Verify ESP32 programming
@@ -139,9 +146,9 @@ This project is a solar-powered environmental monitoring and control system desi
 - [x] Create local web dashboard
 - [x] Display environmental data
 - [x] Display occupancy estimation
-- [ ] Display battery information (Voltage & Charging)
-- [ ] Manual fan override
-- [ ] Adjust controller parameters
+- [x] Display battery voltage
+- [x] Manual fan override
+- [x] Adjust controller parameters
 
 ### Phase 5 – Final System Assembly
 
