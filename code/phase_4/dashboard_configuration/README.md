@@ -59,7 +59,7 @@ Additional dashboard functionality includes:
 - Improved controller organization
 - Automatic refresh of updated controller values
   
-![Dashboard Configuration](../../docs/photos/dashboard_configuration.png)
+![Updated_Dashboard_Configuration](../../../docs/photos/dashboard_configuration.png)
 
 ---
 
